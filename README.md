@@ -1,1 +1,1 @@
-# midguard
+# MidGuard

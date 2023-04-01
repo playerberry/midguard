@@ -1,0 +1,43 @@
+{
+  "name": "@playerberry/midguard",
+  "version": "1.0.0",
+  "description": "Middleware Guard for PlayerBerry",
+  "main": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write . && eslint . --fix",
+    "lint": "prettier --check . && eslint ."
+  },
+  "engines": {
+    "node": ">=16.16.0"
+  },
+  "keywords": [
+    "playerberry",
+    "pb",
+    "pb midguard",
+    "midguard",
+    "middleware",
+    "express"
+  ],
+  "dependencies": {
+    "@playerberry/token": "^1.0.1"
+  },
+  "devDependencies": {
+    "@playerberry/eslint-config": "^1.0.0",
+    "prettier": "^2.8.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/playerberry/midguard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/playerberry/midguard/issues"
+  },
+  "author": "Yankı Küçük <yankikucuk@playerberry.com> (https://playerberry.com)",
+  "contributors": [
+    "ex.codes <kendinikertenkelebek@me.com>"
+  ],
+  "license": "Apache-2.0"
+}
